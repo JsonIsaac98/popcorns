@@ -42,7 +42,7 @@ const Ticket = forwardRef<HTMLDivElement, Props>(function Ticket(
         {/* Encabezado */}
         <div className="text-center">
           <h2 className="font-display text-lg font-bold tracking-wide">
-            POP CORN • Punto de Venta
+            Tienda Liverpool Polanco • Punto de Venta
           </h2>
           <p className="text-xs text-slate-500">{dayjs().format('DD/MM/YYYY HH:mm')}</p>
           <p className="mt-1 text-[11px] text-slate-600">Orden: {orderId}</p>
