@@ -254,7 +254,7 @@ const quickAdd = (p: ParsedSKU) => {
         </div>
 
         {/* Ticket */}
-        <div className="card p-4">
+        <div className="card p-4 hidden">
           <h2 className="mb-3 text-lg font-semibold text-slate-800">Ticket</h2>
           <Ticket ref={ticketRef} orderId={orderId} items={cart} />
         </div>
